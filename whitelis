@@ -1,0 +1,47 @@
+local authorizedUserIds = 
+
+--Smazt
+{1641359709,
+440361410,
+1051902440,
+1051902440,
+1051902440,
+
+--DOOM
+438928775,
+2320305883,
+3648697663,
+138772495,
+3486990830,
+3479694557,
+647239324,
+
+--Gamer
+264766302,
+279624934,
+
+--billybob
+4250673456,
+4243858503,
+177464621,
+118383599,
+3741142320,
+
+--Toad
+2257246281,
+2983296704,
+3188116209,
+4233606562,
+
+--Zion
+752456852,
+478988886}
+
+--All is obfuscated under here
+
+
+if table.find(authorizedUserIds, game.Players.LocalPlayer.UserId) then
+print("Script Executed")
+else
+    print("Player not in database")
+end
